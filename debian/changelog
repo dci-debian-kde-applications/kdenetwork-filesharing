@@ -1,9 +1,9 @@
-kdenetwork-filesharing (4:4.11.3-1) UNRELEASED; urgency=low
+kdenetwork-filesharing (4:4.11.3-1) unstable; urgency=low
 
   * New upstream release.
   * Update build dependencies.
 
- -- Maximiliano Curia <maxy@debian.org>  Sun, 10 Nov 2013 10:33:57 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 10 Nov 2013 11:02:18 +0100
 
 kdenetwork-filesharing (4:4.11.2-1) experimental; urgency=low
 
