@@ -1,9 +1,9 @@
-kdenetwork-filesharing (4:14.12.2-1~) UNRELEASED; urgency=medium
+kdenetwork-filesharing (4:14.12.2-1) experimental; urgency=medium
 
   * Prepare Debian release.
   * Bump Standards-Version to 3.9.6, no changes needed.
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 18 Feb 2015 10:39:36 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 18 Feb 2015 19:04:55 +0100
 
 kdenetwork-filesharing (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
