@@ -1,10 +1,10 @@
-kdenetwork-filesharing (4:14.12.3-0ubuntu1) UNRELEASED; urgency=medium
+kdenetwork-filesharing (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
   * Add back kdelibs5 parent version depend. 
   * New upstream release
   * Fix kdelib5 version in build depends. 
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 09 Mar 2015 10:30:14 -0700
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 13 Mar 2015 13:49:36 -0700
 
 kdenetwork-filesharing (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
