@@ -1,3 +1,9 @@
+kdenetwork-filesharing (4:15.04.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 15 Apr 2015 14:21:39 -0700
+
 kdenetwork-filesharing (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
   * Add back kdelibs5 parent version depend. 
