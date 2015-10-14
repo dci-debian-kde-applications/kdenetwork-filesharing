@@ -1,2 +1,2 @@
-usr/lib/kde4/sambausershareplugin.so
-usr/share/kde4/services/sambausershareplugin.desktop
+usr/lib/*/qt5/plugins/sambausershareplugin.so
+usr/share/kservices5/sambausershareplugin.desktop

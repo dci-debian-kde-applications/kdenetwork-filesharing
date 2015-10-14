@@ -1,3 +1,9 @@
+kdenetwork-filesharing (4:15.10.0+git20151014-0ubuntu1) wily; urgency=medium
+
+  * Upstream snapshot for frameworks 5 integration
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 14 Oct 2015 16:41:12 +0100
+
 kdenetwork-filesharing (4:15.08.2-0ubuntu1) wily; urgency=medium
 
   * New upstream release
