@@ -1,8 +1,9 @@
-kdenetwork-filesharing (4:15.08.2-0ubuntu2) UNRELEASED; urgency=medium
+kdenetwork-filesharing (4:15.08.3-0ubuntu1) UNRELEASED; urgency=medium
 
   * Take out the snapshot for a backport release. 
+  * New upstream bugfix release
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Nov 2015 15:59:14 -0800
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Nov 2015 16:05:10 -0800
 
 kdenetwork-filesharing (4:15.08.2-0ubuntu1) wily; urgency=medium
 
