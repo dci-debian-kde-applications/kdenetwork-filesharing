@@ -10,15 +10,10 @@ Uploaders: Sune Vuorela <sune@debian.org>,
            Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
-               kdoctools-dev,
-               kio-dev,
-               libkf5coreaddons-dev,
-               libkf5i18n-dev,
-               libkf5widgetsaddons-dev,
-               libpackagekitqt5-dev,
-               pkg-kde-tools (>= 0.12),
-               qtbase5-dev
-Standards-Version: 3.9.6
+               kde-sc-dev-latest (>= 4:4.12),
+               kdelibs5-dev (>= 4:4.14),
+               pkg-kde-tools (>= 0.12)
+Standards-Version: 3.9.5
 Homepage: http://www.kde.org/
 Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/kde-applications/kdenetwork-filesharing.git/
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/kdenetwork-filesharing.git
@@ -27,7 +22,6 @@ Package: kdenetwork-filesharing
 Section: net
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Recommends: dolphin
 Description: network filesharing configuration module
  This package provides a System Settings panel to configure network
  file-sharing using NFS and Samba.
@@ -38,7 +32,9 @@ Package: kdenetwork-filesharing-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: kdenetwork-filesharing (= ${binary:Version}), ${misc:Depends}
+Depends: kde-runtime-dbg,
+         kdenetwork-filesharing (= ${binary:Version}),
+         ${misc:Depends}
 Description: debugging symbols for kdenetwork-filesharing
  This package contains debugging files used to investigate problems with
  kdenetwork-filesharing.

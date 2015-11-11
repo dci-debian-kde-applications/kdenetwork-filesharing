@@ -1,45 +1,18 @@
-kdenetwork-filesharing (4:15.08.3-0ubuntu1) UNRELEASED; urgency=medium
+kdenetwork-filesharing (15.08.3-0ubuntu1) UNRELEASED; urgency=medium
 
-  * Take out the snapshot for a backport release. 
-  * New upstream bugfix release
+  * This series is still qt4. Update packaging to prior state. 
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Nov 2015 16:05:10 -0800
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 11 Nov 2015 16:37:55 +0000
 
-kdenetwork-filesharing (4:15.08.2-0ubuntu1) wily; urgency=medium
+kdenetwork-filesharing (4:15.08.2-0ubuntu1~ubuntu15.04~ppa1) vivid; urgency=medium
 
-  * New upstream release
-
- -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 14 Oct 2015 12:18:45 +0100
-
-kdenetwork-filesharing (4:15.08.1-0ubuntu1) wily; urgency=medium
-
-  * New upstream release (15.08.1)
-
- -- Clive Johnston <clivejo@aol.com>  Tue, 22 Sep 2015 16:41:55 +0100
-
-kdenetwork-filesharing (4:15.08.0-0ubuntu1) wily; urgency=medium
-
-  * new upstream release
-
- -- Clive Johnston <clivejo@aol.com>  Wed, 26 Aug 2015 17:22:19 +0100
-
-kdenetwork-filesharing (4:15.07.90-0ubuntu1) wily; urgency=medium
-
-  * new upstream beta release
-
- -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 18 Aug 2015 09:46:08 +0100
-
-kdenetwork-filesharing (4:15.04.2-0ubuntu1) wily; urgency=medium
-
-  [ Scarlett Clark ]
   * New upstream release
   * Fix kdelibs version. 
-  * New upstream release
+  * Vivid backport
+  * Fix changelog. 
+  * PPA build
 
-  [ Jonathan Riddell ]
-  * New upstream release
-
- -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 09 Jun 2015 18:52:46 +0200
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 04 Nov 2015 05:27:31 +0000
 
 kdenetwork-filesharing (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
