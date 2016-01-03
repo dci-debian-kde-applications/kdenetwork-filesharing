@@ -1,3 +1,9 @@
+kdenetwork-filesharing (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Clive Johnston <clivejo@aol.com>  Sun, 03 Jan 2016 00:17:57 +0000
+
 kdenetwork-filesharing (4:15.10.0+git20151014-0ubuntu1) wily; urgency=medium
 
   * Upstream snapshot for frameworks 5 integration
