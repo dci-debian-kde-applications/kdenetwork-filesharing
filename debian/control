@@ -10,6 +10,7 @@ Uploaders: Sune Vuorela <sune@debian.org>,
            Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
+               extra-cmake-modules,
                kdoctools-dev,
                kio-dev,
                libkf5coreaddons-dev,
