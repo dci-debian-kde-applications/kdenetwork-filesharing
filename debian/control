@@ -32,14 +32,3 @@ Description: network filesharing configuration module
  file-sharing using NFS and Samba.
  .
  This package is part of the KDE networking module.
-
-Package: kdenetwork-filesharing-dbg
-Section: debug
-Architecture: any
-Priority: extra
-Depends: kde-runtime-dbg,
-         kdenetwork-filesharing (= ${binary:Version}),
-         ${misc:Depends}
-Description: debugging symbols for kdenetwork-filesharing
- This package contains debugging files used to investigate problems with
- kdenetwork-filesharing.
