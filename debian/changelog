@@ -1,6 +1,7 @@
 kdenetwork-filesharing (4:15.12.2-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream bugfix release
+  * Add missing build dep libpackagekitqt5-dev
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 09 Mar 2016 21:13:44 -0800
 
