@@ -1,3 +1,11 @@
+kdenetwork-filesharing (4:15.12.1-2~1.gbp9cad9c) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @9cad9cab6d52895553ed44a25398365d832a607e **
+
+  * Bump Standards-Version to 3.9.8
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 12:24:27 +0200
+
 kdenetwork-filesharing (4:15.12.1-1) experimental; urgency=medium
 
   * New upstream release (15.12.0).
