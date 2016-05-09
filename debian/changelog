@@ -1,10 +1,18 @@
-kdenetwork-filesharing (4:15.12.1-2~1.gbp9cad9c) UNRELEASED; urgency=medium
+kdenetwork-filesharing (4:15.12.1-2~2.gbp131b03) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @131b03c438e19b7dd075703c821d7b3d23bbf25d **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @9cad9cab6d52895553ed44a25398365d832a607e **
 
   * Bump Standards-Version to 3.9.8
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 12:24:27 +0200
+  [ Maximiliano Curia ]
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 11:24:17 +0200
 
 kdenetwork-filesharing (4:15.12.1-1) experimental; urgency=medium
 
