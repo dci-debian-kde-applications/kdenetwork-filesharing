@@ -1,10 +1,6 @@
-kdenetwork-filesharing (4:15.12.1-2~2.gbp131b03) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @131b03c438e19b7dd075703c821d7b3d23bbf25d **
+kdenetwork-filesharing (4:15.12.1-2) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @9cad9cab6d52895553ed44a25398365d832a607e **
-
   * Bump Standards-Version to 3.9.8
 
   [ Maximiliano Curia ]
@@ -12,7 +8,7 @@ kdenetwork-filesharing (4:15.12.1-2~2.gbp131b03) UNRELEASED; urgency=medium
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 11:24:17 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 25 May 2016 11:57:30 +0200
 
 kdenetwork-filesharing (4:15.12.1-1) experimental; urgency=medium
 
