@@ -1,6 +1,6 @@
-kdenetwork-filesharing (4:16.04.1-0r1) UNRELEASED; urgency=medium
+kdenetwork-filesharing (4:16.04.1-1) unstable; urgency=medium
 
-  [ Pino Toscano ]
+  * Team upload.
   * New upstream release.
   * Add the libpackagekitqt5-dev build dependency to enable the samba
     installation.
@@ -12,7 +12,7 @@ kdenetwork-filesharing (4:16.04.1-0r1) UNRELEASED; urgency=medium
     (Closes: #826851)
   * Suggest samba. (Closes: #691637)
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 09 Jun 2016 16:22:30 +0200
+ -- Pino Toscano <pino@debian.org>  Thu, 09 Jun 2016 22:09:22 +0200
 
 kdenetwork-filesharing (4:15.12.1-2) unstable; urgency=medium
 
