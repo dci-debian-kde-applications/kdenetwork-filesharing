@@ -4,6 +4,9 @@ kdenetwork-filesharing (4:16.04.1-0r1) UNRELEASED; urgency=medium
   * New upstream release.
   * Add the libpackagekitqt5-dev build dependency to enable the samba
     installation.
+  * Stop forcing the local installation to debian/tmp, letting the package
+    directory as install place.
+    - remove kdenetwork-filesharing.install, no more used now
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 09 Jun 2016 16:22:30 +0200
 
