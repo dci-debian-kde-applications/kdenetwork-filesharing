@@ -1,3 +1,10 @@
+kdenetwork-filesharing (4:16.04.1-0r1) UNRELEASED; urgency=medium
+
+  [ Pino Toscano ]
+  * New upstream release.
+
+ -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 09 Jun 2016 16:22:30 +0200
+
 kdenetwork-filesharing (4:15.12.1-2) unstable; urgency=medium
 
   [ Automatic packaging ]
