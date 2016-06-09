@@ -28,6 +28,7 @@ Package: kdenetwork-filesharing
 Section: net
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Suggests: samba
 Description: network filesharing configuration module
  This package provides a System Settings panel to configure network
  file-sharing using NFS and Samba.
