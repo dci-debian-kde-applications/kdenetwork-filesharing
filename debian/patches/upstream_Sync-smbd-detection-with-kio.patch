@@ -1,0 +1,48 @@
+From fb48a2e997eb76ff2eeff1e69c2db35478c2f0c0 Mon Sep 17 00:00:00 2001
+From: Pino Toscano <pino@kde.org>
+Date: Thu, 9 Jun 2016 21:37:00 +0200
+Subject: [PATCH] Sync smbd detection with kio
+
+Copy the helper KSambaSharePrivate::isSambaInstalled() from kio, so
+this file properties plugin has the same logic as the KSambaShare code
+used.
+---
+ samba/filepropertiesplugin/sambausershareplugin.cpp | 15 ++++++++++++++-
+ 1 file changed, 14 insertions(+), 1 deletion(-)
+
+diff --git a/samba/filepropertiesplugin/sambausershareplugin.cpp b/samba/filepropertiesplugin/sambausershareplugin.cpp
+index dba0388..1833df3 100644
+--- a/samba/filepropertiesplugin/sambausershareplugin.cpp
++++ b/samba/filepropertiesplugin/sambausershareplugin.cpp
+@@ -40,6 +40,19 @@
+ K_PLUGIN_FACTORY(SambaUserSharePluginFactory, registerPlugin<SambaUserSharePlugin>();)
+ K_EXPORT_PLUGIN(SambaUserSharePluginFactory("fileshare_propsdlgplugin"))
+ 
++// copied from kio/src/core/ksambashare.cpp, KSambaSharePrivate::isSambaInstalled()
++static bool isSambaInstalled()
++{
++    if (QFile::exists(QStringLiteral("/usr/sbin/smbd"))
++            || QFile::exists(QStringLiteral("/usr/local/sbin/smbd"))) {
++        return true;
++    }
++
++    //qDebug() << "Samba is not installed!";
++
++    return false;
++}
++
+ SambaUserSharePlugin::SambaUserSharePlugin(QObject *parent, const QList<QVariant> &args)
+     : KPropertiesDialogPlugin(qobject_cast<KPropertiesDialog *>(parent))
+     , m_url(properties->url().toLocalFile())
+@@ -105,7 +118,7 @@ SambaUserSharePlugin::SambaUserSharePlugin(QObject *parent, const QList<QVariant
+     for (int i = 0; i < model->rowCount(); ++i) {
+         propertiesUi.tableView->openPersistentEditor(model->index(i, 1, QModelIndex()));
+     }
+-    if (QStandardPaths::findExecutable(QStringLiteral("smbd")).isEmpty()) {
++    if (!isSambaInstalled()) {
+         m_installSambaWidgets->show();
+         m_shareWidgets->hide();
+     } else {
+-- 
+2.8.1
+

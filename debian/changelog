@@ -7,6 +7,9 @@ kdenetwork-filesharing (4:16.04.1-0r1) UNRELEASED; urgency=medium
   * Stop forcing the local installation to debian/tmp, letting the package
     directory as install place.
     - remove kdenetwork-filesharing.install, no more used now
+  * Backport upstream commit fb48a2e997eb76ff2eeff1e69c2db35478c2f0c0 to fix
+    detection of smbd; patch upstream_Sync-smbd-detection-with-kio.patch.
+    (Closes: #826851)
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 09 Jun 2016 16:22:30 +0200
 
