@@ -1,10 +1,9 @@
-kdenetwork-filesharing (4:16.04.2-1~1.gbp014633) UNRELEASED; urgency=medium
+kdenetwork-filesharing (4:16.04.2-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @0146336b5690822c993a62e98b735fc1a1f84287 **
-
+  [ Automatic packaging ]
   * Refresh patches
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 15 Jun 2016 06:24:11 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 22 Jun 2016 16:17:17 +0200
 
 kdenetwork-filesharing (4:16.04.1-1) unstable; urgency=medium
 
