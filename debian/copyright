@@ -8,7 +8,7 @@ Source: http://www.kde.org/download/
 Files: *
 Copyright: 2004, Jan Schaefer <j_schaef@informatik.uni-kl.de>
            2011, Rodrigo Belem <rclbelem@gmail.com>
-License: GPL-2+ or GPL-3+ with KDE e.V. exception
+License: GPL-2+-3-KDEev
 
 Files: samba/filepropertiesplugin/sambausershareplugin.cpp
        samba/filepropertiesplugin/sambausershareplugin.h
@@ -20,7 +20,7 @@ Files: debian/*
 Copyright: 2007-2013, Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 License: GPL-2+
 
-License: GPL-2+ or GPL-3+ with KDE e.V. exception
+License: GPL-2+-3-KDEev
  This program is free software; you can redistribute it and/or
  modify it under the terms of the GNU General Public License as
  published by the Free Software Foundation; either version 2 of
