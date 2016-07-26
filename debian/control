@@ -16,9 +16,10 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5coreaddons-dev (>= 5.7.0~),
                libkf5i18n-dev (>= 5.7.0~),
                libkf5widgetsaddons-dev (>= 5.7.0~),
+               libpackagekitqt5-dev,
                pkg-kde-tools (>= 0.12),
                qtbase5-dev (>= 5.0.0~)
-Standards-Version: 3.9.6
+Standards-Version: 3.9.8
 Homepage: http://www.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kdenetwork-filesharing.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kdenetwork-filesharing.git
@@ -27,6 +28,7 @@ Package: kdenetwork-filesharing
 Section: net
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Suggests: samba
 Description: network filesharing configuration module
  This package provides a System Settings panel to configure network
  file-sharing using NFS and Samba.

@@ -1,8 +1,37 @@
-kdenetwork-filesharing (4:16.04.1-0neon) xenial; urgency=medium
+kdenetwork-filesharing (4:16.04.2-1) unstable; urgency=medium
 
-  * New release
+  [ Automatic packaging ]
+  * Refresh patches
 
- -- Neon CI <neon@kde.org>  Wed, 18 May 2016 18:14:14 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 22 Jun 2016 16:17:17 +0200
+
+kdenetwork-filesharing (4:16.04.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Add the libpackagekitqt5-dev build dependency to enable the samba
+    installation.
+  * Stop forcing the local installation to debian/tmp, letting the package
+    directory as install place.
+    - remove kdenetwork-filesharing.install, no more used now
+  * Backport upstream commit fb48a2e997eb76ff2eeff1e69c2db35478c2f0c0 to fix
+    detection of smbd; patch upstream_Sync-smbd-detection-with-kio.patch.
+    (Closes: #826851)
+  * Suggest samba. (Closes: #691637)
+
+ -- Pino Toscano <pino@debian.org>  Thu, 09 Jun 2016 22:09:22 +0200
+
+kdenetwork-filesharing (4:15.12.1-2) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Bump Standards-Version to 3.9.8
+
+  [ Maximiliano Curia ]
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 25 May 2016 11:57:30 +0200
 
 kdenetwork-filesharing (4:15.12.1-1) experimental; urgency=medium
 
