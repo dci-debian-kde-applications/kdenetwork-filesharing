@@ -1,10 +1,12 @@
-kdenetwork-filesharing (4:16.08.2-1~1.gbp613c83) UNRELEASED; urgency=medium
+kdenetwork-filesharing (4:16.08.2-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @613c8317469e910c59e79dcd9282c3be2673b473 **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 14 Oct 2016 00:24:29 +0200
+  [ Maximiliano Curia ]
+  * New upstream release (16.08.2)
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 17 Oct 2016 23:28:02 +0200
 
 kdenetwork-filesharing (4:16.04.2-1) unstable; urgency=medium
 
