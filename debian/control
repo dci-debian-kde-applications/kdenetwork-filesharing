@@ -29,6 +29,8 @@ Section: net
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Suggests: samba
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: network filesharing configuration module
  This package provides a System Settings panel to configure network
  file-sharing using NFS and Samba.
